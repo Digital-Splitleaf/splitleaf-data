@@ -1,9 +1,8 @@
 
 <p align="center">
   <img src="images/header.png" alt="Splitleaf Logo"/>
-</p
-
-Welcome to the **Digital Splitleaf** GitHub community!  
+  Welcome to the **Digital Splitleaf** GitHub community!
+</p>
 This space supports the development, preservation, and accessibility of resources that promote **psalm singing** around the world. Whether you're here to contribute, learn, collaborate, or ask questions, we’re glad you’ve joined us.
 
 Visit the main website at **[splitleaf.org](https://splitleaf.org)** to explore our broader mission and to view editions of the data found here.
