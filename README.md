@@ -46,7 +46,7 @@ Please read it carefully—especially before posting in discussions or contribut
 Have a question? Want to share ideas? Looking for guidance?  
 Our dedicated discussion forum is the best place to connect with others involved in psalm‑singing resource development:
 
-### 👉 **[Splitleaf Discussion Forum](https://github.com/orgs/Digital-Splitleaf/discussions)**
+### 👉 **[Digital Splitleaf Discussion Forum](https://github.com/orgs/Digital-Splitleaf/discussions)**
 
 Here you can:
 - Ask questions  
