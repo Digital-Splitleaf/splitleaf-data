@@ -9,7 +9,7 @@ Visit the main website at **[splitleaf.org](https://splitleaf.org)** to explore 
 
 ---
 
-## 📖 About Splitleaf
+## 📖 About the Digital Splitleaf
 
 Splitleaf is dedicated to:
 - Preserving the rich tradition of **psalm singing**
