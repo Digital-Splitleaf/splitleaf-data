@@ -1,8 +1,7 @@
 
 <p align="center">
-  <img src="images/logo-large.png" alt="Splitleaf Logo" width="180" /> <H1>Digital Splitleaf</H1>
+  <img src="images/header.png" alt="Splitleaf Logo"/>
 </p
-
 
 Welcome to the **Digital Splitleaf** GitHub community!  
 This space supports the development, preservation, and accessibility of resources that promote **psalm singing** around the world. Whether you're here to contribute, learn, collaborate, or ask questions, we’re glad you’ve joined us.
