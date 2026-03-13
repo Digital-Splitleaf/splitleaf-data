@@ -69,7 +69,7 @@ To revise or improve a file:
 
 1.  **Fork** the relevant folder
 2.  Make your edits
-3.  Submit a **pull request** back to the Digital Splitleaf repository
+3.  Submit a **push request** back to the Digital Splitleaf repository
 
 This ensures proper version control and transparent editorial history.
 
