@@ -12,7 +12,6 @@ This includes:
 
 *   Modern psalter translations or revisions
 *   Newly composed metrical settings
-*   Modern hymnody or liturgical paraphrases
 *   Edited, typeset, or annotated versions of public‑domain texts
 
 If you are unsure whether your edition is in the public domain, please contact the DS team **before submitting any files**.
