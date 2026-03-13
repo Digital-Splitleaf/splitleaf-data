@@ -29,9 +29,7 @@ Duplicate submissions slow down processing and create unnecessary editorial work
 
 ### 2. Submit a New Edition
 
-If your edition is **not yet included**, place your files in the:
-
-    /newEditions
+If your edition is **not yet included**, place your files in the 'newEditions' folder.
 
 Supported formats:
 
