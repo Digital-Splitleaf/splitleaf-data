@@ -95,11 +95,7 @@ Once:
 *   All changes have been accepted, and
 *   The text has been independently reviewed by two editors
 
-…the file will be published in the appropriate location within:
-
-    /texts
-
-This folder contains the final, stable XML versions of psalter editions on the Digital Splitleaf.
+…the file will be published in the appropriate location within the 'texts' folder. This folder contains the final, stable XML versions of psalter editions on the Digital Splitleaf.
 
 ***
 
