@@ -48,19 +48,13 @@ The team will:
 
 *   Evaluate the submitted text
 *   Create the initial **XML file**
-*   Publish that XML file in the:
-
-<!---->
-
-    /processing
-
-folder.
+*   Publish that XML file in the 'processing' folder.
 
 ***
 
 ### 4. Mandatory Editorial Verification
 
-Before any file can be published on the Digital Splitleaf:
+In the processing folder, files can be edited by any user. Before any file can be published on the Digital Splitleaf:
 
 *   It must be verified by **two independent editors**
 *   Their names must appear at the top of the XML file
