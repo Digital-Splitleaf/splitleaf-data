@@ -1,7 +1,3 @@
-Absolutely — here is the full text converted cleanly into **Markdown** format, exactly as a `README.md` file should be structured.
-
-***
-
 # Welcome to the Digital Splitleaf Texts Repository
 
 Welcome to the **Digital Splitleaf (DS)** text‑submission and editorial workspace. This repository provides a structured way for contributors, editors, and collaborators to submit new psalter editions, track editorial progress, and ensure consistent, high‑quality publication of digital psalm‑singing resources.
@@ -121,12 +117,3 @@ This folder contains the final, stable XML versions of psalter editions on the D
 Your work helps preserve, share, and strengthen the rich heritage of psalm‑singing across traditions and generations. If you have questions about the process, encoding guidelines, copyright concerns, or XML structure, please contact the Digital Splitleaf team.
 
 ***
-
-If you'd like, I can also:
-
-*   Add GitHub badges
-*   Provide a contributor guide
-*   Link to the XML schema or style guide
-*   Prepare a shorter or more formal version
-
-Just let me know!
