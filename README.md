@@ -26,7 +26,7 @@ Our GitHub repositories and discussions exist to further this mission.
 We welcome contributions of all kinds—code, documentation, resources, corrections, and constructive ideas.  
 Before contributing, please read our guidelines:
 
-### 👉 **[Contribution Guidelines](CONTRIBUTING.md)**  
+### **[Contribution Guidelines](CONTRIBUTING.md)**  
 This document outlines how to propose changes, share resources, submit code, and participate productively.
 
 ---
@@ -35,7 +35,7 @@ This document outlines how to propose changes, share resources, submit code, and
 
 To ensure a focused, respectful, and welcoming community, all participation is governed by our Code of Conduct:
 
-### 👉 **[Code of Conduct](CODE_OF_CONDUCT.md)**
+### **[Code of Conduct](CODE_OF_CONDUCT.md)**
 
 Please read it carefully—especially before posting in discussions or contributing to repositories.
 
@@ -46,7 +46,7 @@ Please read it carefully—especially before posting in discussions or contribut
 Have a question? Want to share ideas? Looking for guidance?  
 Our dedicated discussion forum is the best place to connect with others involved in psalm‑singing resource development:
 
-### 👉 **[Digital Splitleaf Discussion Forum](https://github.com/orgs/Digital-Splitleaf/discussions)**
+### **[Digital Splitleaf Discussion Forum](https://github.com/orgs/Digital-Splitleaf/discussions)**
 
 Here you can:
 - Ask questions  
