@@ -6,7 +6,7 @@ Welcome to the **Digital Splitleaf (DS)** text‑submission and editorial worksp
 
 ## ⚠️ Copyright and Permissions
 
-**The Digital Splitleaf cannot publish, host, or distribute any material that is still under copyright without explicit written permission from the publisher or rights‑holding organisation.**
+**The Digital Splitleaf cannot publish, host, or distribute any material that is still under copyright without explicit written permission from the publisher or rights‑holder.**
 
 This includes:
 
