@@ -25,7 +25,7 @@ All syllable boundaries in these files were produced automatically and **must be
 
 ⚠️ **Important:**  
 Syllables in *musical lyrics* **are not broken according to standard dictionary hyphenation**.  
-Please ensure that syllable divisions reflect *lyrical and musical practice*, adjusting them wherever needed.
+Please ensure that syllable divisions reflect *lyrical and musical practice*, adjusting them wherever needed. For help, consider Juicio Brennan's Lyric Hyphenator: https://juiciobrennan.com/hyphenator/
 
 ---
 
