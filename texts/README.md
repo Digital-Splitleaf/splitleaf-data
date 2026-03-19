@@ -63,19 +63,7 @@ No text will advance to publication without these dual approvals.
 
 ***
 
-### 5. How to Edit a File
-
-To revise or improve a file:
-
-1.  **Fork** the relevant folder
-2.  Make your edits
-3.  Submit a **push request** back to the Digital Splitleaf repository
-
-This ensures proper version control and transparent editorial history.
-
-***
-
-### 6. Review of Submitted Changes
+### 5. Review of Submitted Changes
 
 The DS editorial team will evaluate every submission for:
 
@@ -88,7 +76,7 @@ Changes may be accepted, revised, or returned with comments.
 
 ***
 
-### 7. Final Publication
+### 6. Final Publication
 
 Once:
 
