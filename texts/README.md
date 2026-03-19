@@ -2,93 +2,59 @@
 
 Welcome to the **Digital Splitleaf (DS)** text‑submission and editorial workspace. This repository provides a structured way for contributors, editors, and collaborators to submit new psalter editions, track editorial progress, and ensure consistent, high‑quality publication of digital psalm‑singing resources.
 
-***
+---
 
-## ⚠️ Copyright and Permissions
+## 🚀 How to Contribute: The "Two-Touch" Workflow
 
-**The Digital Splitleaf cannot publish, host, or distribute any material that is still under copyright without written permission from the publisher or rights‑holder.**
+To ensure the highest accuracy, every file must be edited or verified by **two different people** before an Admin publishes it to the live site.
 
-This includes:
+### Step 1: The Initial Edit (Editor 1)
+1.  **Switch to Development:** Click the branch selector (labeled `main`) at the top left and select **`development`**.
+2.  **Find your File:** Navigate to the XML file you wish to edit.
+3.  **Edit:** Click the **Pencil Icon**. Edit the file according to the **Community Editing Priorities** below.
+4.  **Save:** Scroll to the bottom, write a short note of your changes, and click **Commit changes**.
+5.  **Propose:** Click the green **"Compare & pull request"** button. Ensure the "base" is `main` and "compare" is `development`. Click **Create pull request**.
 
-*   Modern psalter translations or revisions
-*   Newly composed metrical settings
-*   Edited, typeset, or annotated versions of public‑domain texts
+### Step 2: The Peer Review (Editor 2)
+1.  **Review:** Open a pending Pull Request and click the **Files changed** tab.
+2.  **Verify:** Check the XML against the original source and the **Community Priorities** below.
+3.  **Approve:** Click **Review changes**, select **Approve**, and submit.
 
-If you are unsure whether your edition is in the public domain, please contact the DS team **before submitting any files**.
+### Step 3: Admin Final Approval
+Admins are automatically notified via `CODEOWNERS`. We perform a final technical check and **Merge** the file to `main`, which pushes it live to the website.
 
-***
+---
 
-## 🗂️ Workflow Overview
+## 🛠️ Community Editing Priorities
 
-### 1. Check for an Existing Edition
+Please use the following checklist to guide your editing and review process:
 
-Before submitting a new psalter edition, please verify whether it is already available on the Digital Splitleaf.  
-Duplicate submissions slow down processing and create unnecessary editorial workload.
+### 1. Replace Placeholder Text
+Many files contain placeholders such as `AUTHOR_HERE`. Replace these with accurate information based on the text you are editing. Ensure no placeholders remain before proposing a merge.
 
-***
+### 2. Verify Syllable Divisions
+**All syllable boundaries were produced automatically and must be manually verified.**
+* ⚠️ **Important:** Musical lyrics do not always follow standard dictionary hyphenation.
+* **Practice:** Ensure divisions reflect lyrical and musical practice.
+* **Tool:** Use [Juicio Brennan's Lyric Hyphenator](https://juiciobrennan.com/hyphenator/) for assistance.
 
-### 2. Submit a New Edition
+### 3. General Content Review
+Verify the accuracy of the following:
+* **Spelling & Transcription:** Match the printed source exactly.
+* **TEI Structure & Metadata:** Ensure the logical structure is complete.
+* **Punctuation & Formatting:** Maintain the integrity of the original text.
 
-If your edition is **not yet included**, place your files in the 'newEditions' folder.
+### 4. Improve the `<teiHeader>`
+Enhance the metadata quality following [TEI P5 Guidelines](https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html). However, please do not remove any of the existing code. It is crucial to the operation of the Digital Splitleaf.
+* Use only valid TEI elements and attributes.
+* Maintain correct hierarchical structure.
+* Add XML comments `` if something requires later admin review.
 
-Supported formats:
+---
 
-*   **.txt (preferred)**
-*   .docx
-*   .pdf
+## 🛠 Useful Links & Resources
+* **Active Drafts:** [View the Development Branch]([https://github.com/Digital-Splitleaf/splitleaf-data/tree/Development/texts)
+* **Code of Conduct:** [Read our community standards](https://github.com/Digital-Splitleaf/splitleaf-data/blob/main/CODE_OF_CONDUCT.md)
+* **Contribution Guidelines:** [Full workflow details](https://github.com/Digital-Splitleaf/splitleaf-data/blob/main/CONTRIBUTING.md)
 
-Once the edition has been processed, the uploaded source files will be **deleted**.
-
-***
-
-### 3. Initial Processing by the Splitleaf Team
-
-All submitted editions will be reviewed by the Splitleaf editors.  
-The team will:
-
-*   Evaluate the submitted text
-*   Create the initial **XML file**
-*   Publish that XML file in the 'processing' folder.
-
-***
-
-### 4. Mandatory Editorial Verification
-
-In the processing folder, files can be edited by any user. Before any file can be published on the Digital Splitleaf:
-
-*   It must be verified by **two independent editors**
-*   Their names must appear at the top of the XML file
-
-No text will advance to publication without these dual approvals.
-
-***
-
-### 5. Review of Submitted Changes
-
-The DS editorial team will evaluate every submission for:
-
-*   Accuracy
-*   Faithfulness to the source
-*   XML structural integrity
-*   Consistency with DS editorial guidelines
-
-Changes may be accepted, revised, or returned with comments.
-
-***
-
-### 6. Final Publication
-
-Once:
-
-*   All changes have been accepted, and
-*   The text has been independently reviewed by two editors
-
-…the file will be published in the appropriate location within the 'texts' folder. This folder contains the final, stable XML versions of psalter editions on the Digital Splitleaf. These files can also be edited using step 5 above.
-
-***
-
-## 🙏 Thank You for Contributing
-
-Your work helps preserve, share, and strengthen the rich heritage of psalm‑singing across traditions and generations. If you have questions about the process, encoding guidelines, copyright concerns, or XML structure, please contact the Digital Splitleaf team.
-
-***
+> **💡 Need Help?** If you are new to GitHub and feel stuck, please open an **Issue** [here](https://github.com/orgs/Digital-Splitleaf/discussions/categories/q-a) or contact a maintainer. We are happy to walk you through your first few edits!
