@@ -1,5 +1,5 @@
 # Irish Psalter (2004) #
-This folder, and all of its subfolders, contains texts for publication to the Digital Splitleaf website.  Please follow the guidelines below to help ensure accuracy, consistency, and TEI compliance.
+This folder contains texts for publication to the Digital Splitleaf website.  Please follow the guidelines below to help ensure accuracy, consistency, and TEI compliance.
 
 ---
 
