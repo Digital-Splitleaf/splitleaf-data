@@ -1,30 +1,54 @@
 # Welcome to the Digital Splitleaf Texts Repository
 
-Welcome to the **Digital Splitleaf** text‑submission and editorial workspace. This repository provides a structured way for contributors, editors, and collaborators to submit new psalter editions, track editorial progress, and ensure consistent, high‑quality publication of digital psalm‑singing resources.
+Welcome to the **Digital Splitleaf (DS)** text‑submission and editorial workspace. This repository provides a structured way for contributors, editors, and collaborators to submit new psalter editions, track editorial progress, and ensure consistent, high‑quality publication of digital psalm‑singing resources.
 
 ---
 
 ## 🚀 How to Contribute: The "Two-Touch" Workflow
 
-To ensure the highest accuracy for our texts and tunes, every file must be edited or verified by **two different people** before an Admin publishes it to the live site.
+To ensure the highest accuracy, every file must be edited or verified by **two different people** before an Admin publishes it to the live site.
 
 ### Step 1: The Initial Edit (Editor 1)
-If you are the first person to work on a draft:
-1.  **Switch to the Development Branch:** Click the branch selector button (usually labeled `main`) at the top left of the file list and select **`development`**.
-2.  **Find your File:** Navigate through the folders to the XML file you wish to edit.
-3.  **Edit:** Click the **Pencil Icon** (Edit this file) in the top right header of the file view. 
-4.  **Save:** Once finished, scroll to the bottom, write a short note about what you changed (e.g., *"Corrected lyrics for Psalm 23"*), and click **Commit changes**.
-5.  **Propose for Publication:** At the top of the repository page, click the green **"Compare & pull request"** button. Ensure the "base" branch is `main` and the "compare" branch is `development`. Click **Create pull request**.
+1.  **Switch to Development:** Click the branch selector (labeled `main`) at the top left and select **`development`**.
+2.  **Find your File:** Navigate to the XML file you wish to edit.
+3.  **Edit:** Click the **Pencil Icon**. Edit the file according to the **Community Editing Priorities** below.
+4.  **Save:** Scroll to the bottom, write a short note of your changes, and click **Commit changes**.
+5.  **Propose:** Click the green **"Compare & pull request"** button. Ensure the "base" is `main` and "compare" is `development`. Click **Create pull request**.
 
 ### Step 2: The Peer Review (Editor 2)
-If you see a pending Pull Request created by someone else:
-1.  **Review:** Open the Pull Request and click the **Files changed** tab to see the proposed edits.
-2.  **Verify:** Check the XML against the original printed source material.
-3.  **Approve:** If it looks correct, click the green **Review changes** button, select **Approve**, and submit your review.
-    * *Note: If you find further errors, you can go back to the `development` branch and fix them yourself before approving!*
+1.  **Review:** Open a pending Pull Request and click the **Files changed** tab.
+2.  **Verify:** Check the XML against the original source and the **Community Priorities** below.
+3.  **Approve:** Click **Review changes**, select **Approve**, and submit.
 
 ### Step 3: Admin Final Approval
-Once a file has been edited and then approved by a second user, the **Digital Splitleaf Admins** are automatically notified via the `CODEOWNERS` system. We will perform a final technical check of the XML formatting and "Merge" the file into the `main` branch, which automatically updates the live website.
+Admins are automatically notified via `CODEOWNERS`. We perform a final technical check and **Merge** the file to `main`, which pushes it live to the website.
+
+---
+
+## 🛠️ Community Editing Priorities
+
+Please use the following checklist to guide your editing and review process:
+
+### 1. Replace Placeholder Text
+Many files contain placeholders such as `AUTHOR_HERE`. Replace these with accurate information based on the text you are editing. Ensure no placeholders remain before proposing a merge.
+
+### 2. Verify Syllable Divisions
+**All syllable boundaries were produced automatically and must be manually verified.**
+* ⚠️ **Important:** Musical lyrics do not always follow standard dictionary hyphenation.
+* **Practice:** Ensure divisions reflect lyrical and musical practice.
+* **Tool:** Use [Juicio Brennan's Lyric Hyphenator](https://juiciobrennan.com/hyphenator/) for assistance.
+
+### 3. General Content Review
+Verify the accuracy of the following:
+* **Spelling & Transcription:** Match the printed source exactly.
+* **TEI Structure & Metadata:** Ensure the logical structure is complete.
+* **Punctuation & Formatting:** Maintain the integrity of the original text.
+
+### 4. Improve the `<teiHeader>`
+Enhance the metadata quality following [TEI P5 Guidelines](https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html). 
+* Use only valid TEI elements and attributes.
+* Maintain correct hierarchical structure.
+* Add XML comments `` if something requires later admin review.
 
 ---
 
