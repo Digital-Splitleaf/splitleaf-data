@@ -5,7 +5,7 @@ This folder contains texts for publication to the Digital Splitleaf website.  Pl
 
 ## ✅ Purpose of This Folder
 
-The materials here exist in both a Development Branch and a Publication Branch. All files are TEI‑encoded texts that may include placeholder values, automatically generated syllabification, and other content that still requires correction or expansion.
+The materials here exist in both a Development Branch and a Main (Publication) Branch. All files are TEI‑encoded texts that may include placeholder values, automatically generated syllabification, and other content that still requires correction or expansion.
 
 Your contributions will help move these files toward a fully reliable, publication‑ready state.
 
