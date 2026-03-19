@@ -45,7 +45,7 @@ Verify the accuracy of the following:
 * **Punctuation & Formatting:** Maintain the integrity of the original text.
 
 ### 4. Improve the `<teiHeader>`
-Enhance the metadata quality following [TEI P5 Guidelines](https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html). 
+Enhance the metadata quality following [TEI P5 Guidelines](https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html). However, please do not remove any of the existing code. It is crucial to the operation of the Digital Splitleaf.
 * Use only valid TEI elements and attributes.
 * Maintain correct hierarchical structure.
 * Add XML comments `` if something requires later admin review.
