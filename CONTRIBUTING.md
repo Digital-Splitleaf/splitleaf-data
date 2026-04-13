@@ -27,11 +27,16 @@ Duplicate submissions slow down processing and create unnecessary editorial work
 
 If your edition is **not yet included**, place your files in the 'newEditions' folder.
 
-Supported formats:
+Supported formats for Psalm texts:
 
 *   **.txt (preferred)**
 *   .docx
 *   .pdf
+
+Supported formats for music:
+*   **.musicXML (preferred)**
+*   .mscz (MuseScore)
+*   .xml (Music Encoding Initiative)
 
 Once the edition has been processed, the uploaded source files will be **deleted**.
 
