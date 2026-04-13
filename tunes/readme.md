@@ -42,7 +42,6 @@ Many files contain placeholders such as `AUTHOR_HERE`. Replace these with accura
 * **Add:** In the coding pane of mei-friend, add your name and initials as a Validator.
 * **Save:** Save and download your updated file by clicking **File** > **Save MEI**. **NOTE:** Be sure you do not rename the file.
 * **Upload:** Back in GitHub, make sure you are in the **Development** branch, and upload your updated MEI file. Navigate to the correct folder, which should be your tune's metre. 
-* **Tool:** Use [Juicio Brennan's Lyric Hyphenator](https://juiciobrennan.com/hyphenator/) for assistance.
 
 ### 3. Improve the `<meiHeader>`
 Enhance the metadata quality following [MEI Guidelines](https://music-encoding.org/guidelines/v5/content/index.html). However, please do not remove any of the existing code. It is crucial to the operation of the Digital Splitleaf.
