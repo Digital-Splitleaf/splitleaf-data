@@ -41,7 +41,7 @@ Many files contain placeholders such as `AUTHOR_HERE`. Replace these with accura
 * **Review:** Review the rhythms and pitches for all voices. If you are uncertain about editing the code directly, you can find many simple functions in the **Manipulate** and **Insert** menus.
 * **Add:** In the coding pane of mei-friend, add your name and initials as a Validator.
 * **Save:** Save and download your updated file by clicking **File** > **Save MEI**. **NOTE:** Be sure you do not rename the file.
-* **Upload:** Back in GitHub, make sure you are in the **Development** branch, and upload your updated MEI file. Navigate to the correct folder, which should be your tune's metre. 
+* **Upload:** Back in GitHub, make sure you are in the **Development** branch, and upload your updated MEI file. Navigate to the correct folder, which should be your tune's metre. In that folder, click **Add file** > **Upload files**. Drag and drop your file into the correct pane and click the green **Commit changes**.
 
 ### 3. Improve the `<meiHeader>`
 Enhance the metadata quality following [MEI Guidelines](https://music-encoding.org/guidelines/v5/content/index.html). However, please do not remove any of the existing code. It is crucial to the operation of the Digital Splitleaf.
