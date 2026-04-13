@@ -60,7 +60,7 @@ In the processing folder, files can be edited by any user. Before any file can b
 *   It must be verified by **two independent editors**
 *   Their names must appear at the top of the XML file
 
-No text will advance to publication without these dual approvals.
+No submission will advance to publication without these dual approvals.
 
 ***
 
