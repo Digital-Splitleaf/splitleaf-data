@@ -18,7 +18,8 @@ To ensure the highest accuracy, every file must be edited or verified by **two d
 ### Step 2: The Peer Review (Editor 2)
 1.  **Review:** Open a pending Pull Request and click the **Files changed** tab.
 2.  **Verify:** Check the XML against the original source and the **Community Priorities** below.
-3.  **Approve:** Click **Review changes**, select **Approve**, and submit.
+3.  **Add:** Add your name and initials to the header file under Validator 2.
+4.  **Approve:** Click **Review changes**, select **Approve**, and submit.
 
 ### Step 3: Admin Final Approval
 Admins are automatically notified via `CODEOWNERS`. We perform a final technical check and **Merge** the file to `main`, which pushes it live to the website.
