@@ -19,5 +19,5 @@ And thou from him didst not withhold
 Whate'er his lips expressed.
 ```
 ### Important notes 
-1 1. We can accept other file formats (Word, PDF, etc.). However, it may take us some time to process them. We will have to format the texts as described above.
-2 1. We cannot publish any content without copyright permission. We may, therefore, contact you for help in getting that permission.
+1. We can accept other file formats (Word, PDF, etc.). However, it may take us some time to process them. We will have to format the texts as described above.
+2. We cannot publish any content without copyright permission. We may, therefore, contact you for help in getting that permission.
