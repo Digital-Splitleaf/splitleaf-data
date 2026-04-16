@@ -1,13 +1,15 @@
 
 <p align="center">
   <img src="images/header.png" alt="Splitleaf Logo"/><br/>
-  <h2 align="center">Welcome to the Digital Splitleaf GitHub community!</h2>
+  <h2 align="center">Welcome to the Digital Splitleaf Data Repository!</h2>
 </p>
 This space supports the development, preservation, and accessibility of resources that promote **psalm singing** around the world. Whether you're here to contribute, learn, collaborate, or ask questions, we’re glad you’ve joined us.
 
 Visit the main website at **[splitleaf.org](https://splitleaf.org)** to explore our broader mission and to view editions of the data found here.
 
 ---
+## Editing Data Content for the Digital Splitleaf
+This repository is for you to help edit content published on the Digital Splitleaf. If you would like to suggest new editions or tunes, please visit the suggestions repository: **[https://github.com/Digital-Splitleaf/splitleaf-suggestions](https://github.com/Digital-Splitleaf/splitleaf-suggestions)**
 
 ## 📖 About the Digital Splitleaf
 
