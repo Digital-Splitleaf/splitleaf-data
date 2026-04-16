@@ -3,7 +3,7 @@ Upload your suggested texts into this folder. If possible, please upload a .txt 
 ```
 Long Title: The Psalms of David in Metre
 Short Title: Psalms in Metre
-Publisher: Free Church of Scotland
+Publisher: Church of Scotland
 Date: 1650
 
 Psalm 21 (CM)
