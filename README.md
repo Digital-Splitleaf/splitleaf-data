@@ -11,6 +11,7 @@ Visit the main website at **[splitleaf.org](https://splitleaf.org)** to explore 
 ## ✏️ Editing Data Content for the Digital Splitleaf
 This repository is for you to help edit content published on the Digital Splitleaf. If you would like to suggest new editions or tunes, please visit the suggestions repository: **[https://github.com/Digital-Splitleaf/splitleaf-suggestions](https://github.com/Digital-Splitleaf/splitleaf-suggestions)**
 
+---
 ## 📖 About the Digital Splitleaf
 
 Splitleaf is dedicated to:
