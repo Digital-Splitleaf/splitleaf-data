@@ -1,5 +1,5 @@
 ## Suggest new text editions here
-Upload your suggested texts into this folder. If possible, please upload a .txt file of your Psalm(s) that employs the following format for #each# psalm. If you do not know some of this information, you can leave it blank. However, please add an empty line between the header and title (metre), and another between the title (metre) and the first stanza. Each subsequent stanza should have a blank line before it. 
+Upload your suggested texts into this folder. If possible, please upload a .txt file of your Psalm(s) that employs the following format for #each psalm. If you do not know some of this information, you can leave it blank. However, please add an empty line between the header and title (metre), and another between the title (metre) and the first stanza. Each subsequent stanza should have a blank line before it. 
 ```
 Long Title: The Psalms of David in Metre
 Short Title: Psalms in Metre
@@ -18,4 +18,6 @@ That his heart would request;
 And thou from him didst not withhold
 Whate'er his lips expressed.
 ```
-
+### Important notes 
+1 1. We can accept other file formats (Word, PDF, etc.). However, it may take us some time to process them. We will have to format the texts as described above.
+2 1. We cannot publish any content without copyright permission. We may, therefore, contact you for help in getting that permission.
