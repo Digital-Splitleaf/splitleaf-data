@@ -66,9 +66,7 @@ This project uses GitHub pull requests as its formal editorial
 and validation mechanism.
 
 - Editors and validators are recorded automatically after a pull
-  request is merged.
-- Contributors should not manually edit editorial metadata
-  (e.g. <respStmt>, <revisionDesc>).
+  request is merged..
 
 **Anonymity**
 
