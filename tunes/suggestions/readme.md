@@ -1,5 +1,5 @@
 ## Suggest new tune editions here
-Upload your suggested tunes into this folder. We prefer the following file formats:
+Swith to the 'Development' branch in the top left (you may see 'main' right now). Upload your suggested tunes into this folder. We prefer the following file formats:
 - musicXML (.xml OR .musicxml)
 - MuseScore (.mscz)
 - Music Encoding Initiative (.xml)
