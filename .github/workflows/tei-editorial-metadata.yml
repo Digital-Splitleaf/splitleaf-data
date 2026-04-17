@@ -8,6 +8,7 @@ jobs:
   update-metadata:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
+
     permissions:
       pull-requests: read
       contents: write
@@ -23,9 +24,128 @@ jobs:
             repos/$REPO/pulls/$PR_NUMBER/reviews \
             --jq '[.[] | select(.state=="APPROVED") | .user.login] | unique | length')
 
-          echo "Approvals found: $approvals"
-
           if [ "$approvals" -lt 2 ]; then
-             echo "PR does not have 2 approvals; skipping metadata update."
-             exit 0
+            exit 0
           fi
+
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Get changed XML files
+        id: changed_xml
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.merge_commit_sha }}
+        run: |
+          files=$(git diff --name-only "$BASE_SHA" "$HEAD_SHA" | grep '\.xml$' || true)
+          files_single_line=$(echo "$files" | tr '\n' ' ')
+          echo "xml_files=$files_single_line" >> "$GITHUB_OUTPUT"
+
+      - name: Install xmlstarlet
+        run: sudo apt-get update && sudo apt-get install -y xmlstarlet
+
+      - name: Update TEI / MEI editorial metadata
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+          MERGE_DATE: ${{ github.event.pull_request.merged_at }}
+        run: |
+          set -e
+
+          reviewers=$(gh api \
+            repos/$REPO/pulls/$PR_NUMBER/reviews \
+            --jq '.[] | select(.state=="APPROVED") | .user.login' | sort -u)
+
+          get_display_name () {
+            user=$1
+            text=$2
+            name=$(gh api users/$user --jq '.name // .login')
+            echo "$text" | grep -qi anonymous && echo "Anonymous" || echo "$name"
+          }
+
+          for file in ${{ steps.changed_xml.outputs.xml_files }}; do
+
+            ROOT=$(xmlstarlet sel -t -v "local-name(/*)" "$file")
+
+            if [ "$ROOT" = "TEI" ]; then
+              PERSON_EL="name"
+            elif [ "$ROOT" = "mei" ]; then
+              PERSON_EL="persName"
+            else
+              echo "Skipping unknown XML type: $file"
+              continue
+            fi
+
+            if git cat-file -e "${{ github.event.pull_request.base.sha }}:$file" 2>/dev/null; then
+              MODE="revision"
+            else
+              MODE="initial"
+            fi
+
+            editor_name=$(get_display_name "$PR_AUTHOR" "$PR_BODY")
+
+            if [ "$MODE" = "initial" ]; then
+              xmlstarlet ed -L \
+                -s "//titleStmt" -t elem -n respStmt -v "" \
+                -s "//titleStmt/respStmt[last()]" -t elem -n resp -v "Edited by" \
+                -s "//titleStmt/respStmt[last()]" -t elem -n "$PERSON_EL" -v "$editor_name" \
+                -i "//titleStmt/respStmt[last()]/*[last()]" -t attr -n role -v editor \
+                "$file"
+
+              xmlstarlet ed -L \
+                -s "//titleStmt" -t elem -n respStmt -v "" \
+                -s "//titleStmt/respStmt[last()]" -t elem -n resp -v "Validated by" \
+                "$file"
+
+              for r in $reviewers; do
+                review_text=$(gh api \
+                  repos/$REPO/pulls/$PR_NUMBER/reviews \
+                  --jq ".[] | select(.user.login==\"$r\") | .body" | tail -n 1)
+
+                validator_name=$(get_display_name "$r" "$review_text")
+
+                xmlstarlet ed -L \
+                  -s "//titleStmt/respStmt[last()]" -t elem -n "$PERSON_EL" -v "$validator_name" \
+                  -i "//titleStmt/respStmt[last()]/*[last()]" -t attr -n role -v validator \
+                  "$file"
+              done
+
+            else
+              xmlstarlet ed -L \
+                -s "//revisionDesc" -t elem -n change -v "" \
+                -i "//revisionDesc/change[last()]" -t attr -n when -v "${MERGE_DATE%%T*}" \
+                "$file" || true
+
+              xmlstarlet ed -L \
+                -s "//revisionDesc/change[last()]" -t elem -n "$PERSON_EL" -v "$editor_name" \
+                -i "//revisionDesc/change[last()]/*[last()]" -t attr -n role -v editor \
+                "$file"
+
+              for r in $reviewers; do
+                review_text=$(gh api \
+                  repos/$REPO/pulls/$PR_NUMBER/reviews \
+                  --jq ".[] | select(.user.login==\"$r\") | .body" | tail -n 1)
+
+                validator_name=$(get_display_name "$r" "$review_text")
+
+                xmlstarlet ed -L \
+                  -s "//revisionDesc/change[last()]" -t elem -n "$PERSON_EL" -v "$validator_name" \
+                  -i "//revisionDesc/change[last()]/*[last()]" -t attr -n role -v validator \
+                  "$file"
+              done
+
+              xmlstarlet ed -L \
+                -s "//revisionDesc/change[last()]" -t elem -n desc -v "Change via PR #$PR_NUMBER" \
+                "$file"
+            fi
+          done
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add *.xml
+          git commit -m "Record editorial metadata for PR #${{ github.event.pull_request.number }}" || exit 0
