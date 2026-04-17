@@ -12,17 +12,19 @@ To ensure the highest accuracy, every file must be edited or verified by **two d
 1.  **Switch to Development:** Click the branch selector (labeled `main`) at the top left and select **`development`**.
 2.  **Find your File:** Navigate to the XML file you wish to edit.
 3.  **Edit:** Click the **Pencil Icon**. Edit the file according to the **Community Editing Priorities** below.
-4.  **Add:** Add your name and initials to the header file under Validator 1.
-5.  **Save:** Scroll to the bottom, write a short note of your changes, and click **Commit changes**.
-6.  **Propose:** Click the green **"Compare & pull request"** button. Ensure the "base" is `main` and "compare" is `development`. Click **Create pull request**.
+4.  **Save:** Scroll to the bottom, write a short note of your changes, and click **Commit changes**.
+5.  **Propose:** Click the green **"Compare & pull request"** button. Ensure the "base" is `main` and "compare" is `development`. Click **Create pull request**.
 
 ### Step 2: The Peer Review (Editor 2)
 1.  **Review:** Open a pending Pull Request and click the **Files changed** tab.
 2.  **Verify:** Check the XML against the original source and the **Community Priorities** below.
-3.  **Add:** Add your name and initials to the header file under Validator 2.
-4.  **Approve:** Click **Review changes**, select **Approve**, and submit.
+3.  **Approve:** Click **Review changes**, select **Approve**, and submit.
 
-### Step 3: Admin Final Approval
+### Step 3: Auto Attribution
+- Editors and validators will be recorded automatically after a pull request is merged (approved).
+- **Anonymity**: If you wish to be credited anonymously, include the word "anonymous" in the request description or approval comment.
+
+### Step 4: Admin Final Approval
 Admins are automatically notified via `CODEOWNERS`. We perform a final technical check and **Merge** the file to `main`, which pushes it live to the website.
 
 ---
