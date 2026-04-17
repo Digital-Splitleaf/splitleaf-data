@@ -71,6 +71,7 @@ and validation mechanism.
   (e.g. <respStmt>, <revisionDesc>).
 
 **Anonymity**
+
 If you wish to be credited anonymously:
 - Editors: include the word "anonymous" in the pull request description.
 - Validators: include the word "anonymous" in your approval comment.
