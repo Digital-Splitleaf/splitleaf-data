@@ -62,6 +62,23 @@ In the processing folder, files can be edited by any user. Before any file can b
 
 No submission will advance to publication without these dual approvals.
 
+This project uses GitHub pull requests as its formal editorial
+and validation mechanism.
+
+- Editors and validators are recorded automatically after a pull
+  request is merged.
+- Contributors should not manually edit editorial metadata
+  (e.g. <respStmt>, <revisionDesc>).
+
+**Anonymity**
+If you wish to be credited anonymously:
+- Editors: include the word "anonymous" in the pull request description.
+- Validators: include the word "anonymous" in your approval comment.
+
+GitHub identities are retained internally for audit purposes, but
+may not appear in published files.
+
+
 ***
 
 ### 5. Review of Submitted Changes
