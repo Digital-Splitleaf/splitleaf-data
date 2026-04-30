@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"><meiHead><fileDesc>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+    <meiHead>
+        <fileDesc>
          <titleStmt>
             <title>Title</title>
             <respStmt>
@@ -19,14 +20,29 @@
             </availability>
             <identifier>SL175</identifier>
          </pubStmt>
-      </fileDesc><encodingDesc xml:id="encodingdesc-0000000589051729">
+      </fileDesc>
+        <encodingDesc xml:id="encodingdesc-0000000589051729">
          <appInfo xml:id="appinfo-0000001649237046">
             <application xml:id="application-0000001295686782" isodate="2020-01-14T15:48:44" version="2.4.0-dev-274b767-dirty">
                <name xml:id="name-0000001908634302">Verovio</name>
                <p xml:id="p-0000001793328337">Transcoded from MusicXML</p>
             </application>
          </appInfo>
-      </encodingDesc><workList><work><title>Howard</title><otherChar>8.7.8.7.</otherChar><incip><incipCode form="plaineAndEasie">%G-2 $xFC @4/4 4xF/'4xF'A''D'B/'4A'xF'E'A/'4A'A''E''xC/'2B'4A'A/'4A'B'A'D/'4G'G'xF'xF/'4xF'B'A'xF/'2E'4D</incipCode><incipCode form="pitchclass">6 6 9 2 11 9 6 4 9 9 9 4 1 11 9 9 9 11 9 2 7 7 6 6 6 11 9 6 4 2</incipCode><incipCode form="intervalclass">0 3 5 3 2 3 2 5 0 0 5 3 2 2 0 0 2 2 5 5 0 1 0 0 5 2 3 2 2</incipCode><incipCode form="signedinterval">0 3 5 -3 -2 -3 -2 5 0 0 7 -3 -2 -2 0 0 2 -2 -7 5 0 -1 0 0 5 -2 -3 -2 -2</incipCode><incipCode form="contour">= + + - - - - + = = + - - - = = + - - + = - = = + - - - -</incipCode></incip></work></workList></meiHead><music>
+      </encodingDesc>
+        <workList>
+            <work>
+                <title>Aberdeen</title>
+                <otherChar>8.7.8.7.</otherChar>
+                <incip>
+                    <incipCode form="plaineAndEasie">%G-2 $xFC @4/4 4F/'4F'A''D'B/'4A'F'E'A/'4A'A''E''C/'2B'4A'A/'4A'B'A'D/'4G'G'F'F/'4F'B'A'F/'2E'4D</incipCode>
+                    <incipCode form="pitchclass">6 6 9 2 11 9 6 4 9 9 9 4 1 11 9 9 9 11 9 2 7 7 6 6 6 11 9 6 4 2</incipCode>
+                    <incipCode form="signedinterval">0 3 5 -3 -2 -3 -2 5 0 0 7 -3 -2 -2 0 0 2 -2 -7 5 0 -1 0 0 5 -2 -3 -2 -2</incipCode>
+                    <incipCode form="contour">= + + - - - - + = = + - - - = = + - - + = - = = + - - - -</incipCode>
+                </incip>
+            </work>
+        </workList>
+    </meiHead>
+    <music>
       <body>
          <mdiv xml:id="moi9r9y">
             <score xml:id="s95cj6j">
@@ -36,12 +52,20 @@
                         <clef xml:id="cys5t4r" shape="G" color="#000000" line="2"/>
                         <keySig xml:id="kephhzn" mode="major" sig="2s"/>
                         <meterSig xml:id="mm5mro0" count="4" unit="4"/>
-                     <layerDef n="1" label="Soprano" xml:id="layerDef1" instr="#soprano"/><layerDef n="2" label="Alto" xml:id="layerDef2" instr="#alto"/><instrDef xml:id="soprano"/><instrDef xml:id="alto"/></staffDef>
+                     <layerDef n="1" label="Soprano" xml:id="layerDef1" instr="#soprano"/>
+                                <layerDef n="2" label="Alto" xml:id="layerDef2" instr="#alto"/>
+                                <instrDef xml:id="soprano"/>
+                                <instrDef xml:id="alto"/>
+                            </staffDef>
                      <staffDef xml:id="P2" n="2" lines="5" ppq="256">
                         <clef xml:id="c4yszqp" shape="F" color="#000000" line="4"/>
                         <keySig xml:id="k9m1go6" mode="major" sig="2s"/>
                         <meterSig xml:id="m7rxsbk" count="4" unit="4"/>
-                     <layerDef n="1" label="Tenor" xml:id="layerDef3" instr="#tenor"/><layerDef n="2" label="Bass" xml:id="layerDef4" instr="#bass"/><instrDef xml:id="tenor"/><instrDef xml:id="bass"/></staffDef>
+                     <layerDef n="1" label="Tenor" xml:id="layerDef3" instr="#tenor"/>
+                                <layerDef n="2" label="Bass" xml:id="layerDef4" instr="#bass"/>
+                                <instrDef xml:id="tenor"/>
+                                <instrDef xml:id="bass"/>
+                            </staffDef>
                   </staffGrp>
                </scoreDef>
                <section xml:id="scv75zw">
@@ -215,7 +239,11 @@
                                  <syl/>
                               </verse>
                            </note>
-                           <note class="n9fqvs5" xml:id="n9fqvs5" dur.ppq="256" dur="4" oct="4" pname="a" color="#000000" stem.dir="up"/>
+                           <note class="n9fqvs5" xml:id="n9fqvs5" dur.ppq="256" dur="4" oct="4" pname="a" color="#000000" stem.dir="up">
+                              <verse xml:id="vtvqrq2a" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
                            <note class="ntygyls" xml:id="ntygyls" dur.ppq="256" dur="4" oct="4" pname="a" color="#000000" stem.dir="up">
                               <verse xml:id="vtvqrq2" n="1">
                                  <syl/>
@@ -405,7 +433,11 @@
                                  <syl/>
                               </verse>
                            </note>
-                           <note class="nm2zcf1" xml:id="nm2zcf1" dur.ppq="256" dur="4" oct="4" pname="d" color="#000000" stem.dir="up"/>
+                           <note class="nm2zcf1" xml:id="nm2zcf1" dur.ppq="256" dur="4" oct="4" pname="d" color="#000000" stem.dir="up">
+                              <verse xml:id="v39tq2ca" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
                         </layer>
                         <layer xml:id="lweglzp" n="2">
                            <note class="ns046oq" xml:id="ns046oq" dur.ppq="256" dur="4" oct="3" pname="b" color="#000000" stem.dir="down"/>
@@ -431,4 +463,5 @@
             </score>
          </mdiv>
       </body>
-   </music></mei>
+   </music>
+</mei>
