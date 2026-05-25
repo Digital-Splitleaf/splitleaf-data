@@ -49,7 +49,7 @@ The team will:
 
 *   Evaluate the submitted text
 *   Create the initial **XML file**
-*   Publish that XML file in the 'processing' folder.
+*   Publish that XML file **['Development' branch](https://github.com/Digital-Splitleaf/splitleaf-data/tree/development)**.
 
 ***
 
