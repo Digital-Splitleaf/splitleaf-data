@@ -49,13 +49,13 @@ The team will:
 
 *   Evaluate the submitted text
 *   Create the initial **XML file**
-*   Publish that XML file **['Development' branch](https://github.com/Digital-Splitleaf/splitleaf-data/tree/development)**.
+*   Publish that XML file in the **['Development' branch](https://github.com/Digital-Splitleaf/splitleaf-data/tree/development)**.
 
 ***
 
 ### 4. Mandatory Editorial Verification
 
-In the processing folder, files can be edited by any user. Before any file can be published on the Digital Splitleaf:
+Files can be edited by any user by making changes in the **['Development' branch](https://github.com/Digital-Splitleaf/splitleaf-data/tree/development)**. Before any file can be published on the Digital Splitleaf:
 
 *   It must be verified by **two independent editors**
 *   Their names must appear at the top of the XML file
