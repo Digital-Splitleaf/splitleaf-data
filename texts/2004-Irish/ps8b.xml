@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ID_HERE">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="2004-Ps8b">
 <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Psalm 8 B</title>
+                <title>Psalm 8b</title>
                 <author>AUTHOR_HERE</author>
-                <editor role="general">Timothy Duguid</editor>
                 <respStmt>
-                    <resp>Encoded by</resp>
-                    <persName role="enc">Luca Guariento (Splitleaf TEI Encoder script)</persName>
+                    <resp>General editor</resp>
+                    <persName role="editor">Timothy Duguid</persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Validated by</resp>
-                    <name xml:id="VALIDATOR_1_INITIALS">VALIDATOR_1_NAME</name>
-                    <name xml:id="VALIDATOR_2_INITIALS">VALIDATOR_2_NAME</name>
+                    <resp>Archive creator</resp>
+                    <name role="creator">Timothy Duguid</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <title type="main">The Psalms for Singing</title>
+                    <title type="main">The Psalms for Singing: A 21st Century Edition</title>
                     <title type="short">2004 Irish Psalter</title>
                     <date>2004</date>
                 </edition>
                 <respStmt>
                     <resp>Published by</resp>
-                    <persName role="pub">Nigel Lynn Publishing</persName>
+                    <persName role="pub">Nigel Lynn</persName>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Digital Splitleaf</publisher>
                 <availability>
-                    <licence target="LICENSE_URL_HERE">LICENSE_TEXT_HERE</licence>
+                    <licence target="https://www.rpc.org/worship/">Copyright, Reformed Presbyterian Church of Ireland (reproduced with permission)</licence>
                 </availability>
             </publicationStmt>
             <notesStmt>
@@ -38,13 +36,20 @@
                 <note>TUNE_HERE</note>
             </notesStmt>
             <sourceDesc>
-                <p>SOURCE_DESC_HERE</p>
+                <p>Texts from the The Psalms for Singing, 2004.</p>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
-            <metDecl>
-                <p>All metre designations are only counts of syllables and do not refer to any type of poetic foot.</p>
-            </metDecl>
+        <encodingDesc xml:id="encodingdesc-0000000589051729">
+            <appInfo xml:id="appinfo-0000001649237046">
+                <application xml:id="application-0000001295686782" ident="digital-splitleaf-tei-generator" version="1.0" when="2026-07-10">
+                    <label xml:id="applicationlabel-000000001">Digital Splitleaf TEI Generator</label>
+                    <desc xml:id="applicationdesc-000000001">Transforms .txt input into a TEI file compatible with the Splitleaf interface.</desc>
+                </application>
+            </appInfo>
+            <projectDesc>
+                <p>This file is part of the <orgName role="distributor">Digital Splitleaf Digital Archive</orgName>.
+                    <persName role="creator">Timothy Duguid</persName></p>
+            </projectDesc>
         </encodingDesc>
     </teiHeader>
 <text>
