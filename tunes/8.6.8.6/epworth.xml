@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"><meiHead><fileDesc>
+         <titleStmt>
+            <title>Title</title>
+            <respStmt>
+               <persName role="composer">Charles Wesley</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+           <edition>
+               <title type="main">The Psalter in Metre and Scripture Paraphrases</title>
+               <title type="short">The Psalter in Metre and Scripture Paraphrases</title>
+               <date>1900</date>
+            </edition>
+         </editionStmt>
+         <pubStmt>
+            <availability>
+               <useRestrict auth.uri="https://creativecommons.org/licenses/by-nc/4.0/" auth="Creative Commons">Distributed under a Creative Commons Attribution-NonCommercial 4.0 License</useRestrict>
+            </availability>
+            <identifier>SL49</identifier>
+         </pubStmt>
+      </fileDesc><encodingDesc xml:id="encodingdesc-0000000589051729">
+         <appInfo xml:id="appinfo-0000001649237046">
+            <application xml:id="application-0000001295686782" isodate="2020-01-14T15:48:44" version="2.4.0-dev-274b767-dirty">
+               <name xml:id="name-0000001908634302">Verovio</name>
+               <p xml:id="p-0000001793328337">Transcoded from MusicXML</p>
+            </application>
+         </appInfo>
+      </encodingDesc><workList><work><title>Epworth</title><otherChar>8.6.8.6.</otherChar><incip><incipCode form="plaineAndEasie">%G-2 $bBEA @4/4 4bE/'4G'bB''4.bE'8G/'8F''C'bB'bA'4G'bB/''4bE''D''8C'bB'4nA/'2.bB'4bB/'4bA'G''4.C'8bA/'4G'F'bB'bB/''4bE'8bE'F'4G'F/'2.bE</incipCode><incipCode form="pitchclass">3 7 10 3 7 5 0 10 8 7 10 3 2 0 10 9 10 10 8 7 0 8 7 5 10 10 3 3 5 7 5 3</incipCode><incipCode form="intervalclass">4 3 5 4 2 5 2 2 1 3 5 1 2 2 1 1 0 2 1 5 4 1 2 5 0 5 0 2 2 2 2</incipCode><incipCode form="signedinterval">4 3 5 -8 -2 7 -2 -2 -1 3 5 -1 -2 -2 -1 1 0 -2 -1 5 -4 -1 -2 5 0 5 -12 2 2 -2 -2</incipCode><incipCode form="contour">+ + + - - + - - - + + - - - - + = - - + - - - + = + - + + - -</incipCode></incip></work></workList></meiHead><music>
+      <body>
+         <mdiv xml:id="mdiv-0000001066059457">
+            <score xml:id="score-0000000594301613">
+               <scoreDef xml:id="scoredef-0000000163865837">
+                  <staffGrp xml:id="staffgrp-0000001042442475">
+                     <staffDef xml:id="P1" n="1" lines="5" ppq="256">
+                        <clef xml:id="clef-0000001025707938" shape="G" color="#000000" line="2"/>
+                        <keySig xml:id="keysig-0000000007179208" mode="major" sig="3f"/>
+                        <meterSig xml:id="msig-0000001535861521" count="4" unit="4"/>
+                     <layerDef n="1" label="Soprano" xml:id="layerDef1" instr="#soprano"/><layerDef n="2" label="Alto" xml:id="layerDef2" instr="#alto"/><instrDef xml:id="soprano"/><instrDef xml:id="alto"/></staffDef>
+                     <staffDef xml:id="P2" n="2" lines="5" ppq="256">
+                        <clef xml:id="clef-0000000310496212" shape="F" color="#000000" line="4"/>
+                        <keySig xml:id="keysig-0000001986389997" mode="major" sig="3f"/>
+                        <meterSig xml:id="msig-0000001466129329" count="4" unit="4"/>
+                     <layerDef n="1" label="Tenor" xml:id="layerDef3" instr="#tenor"/><layerDef n="2" label="Bass" xml:id="layerDef4" instr="#bass"/><instrDef xml:id="tenor"/><instrDef xml:id="bass"/></staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="section-0000000142098086">
+                  <pb xml:id="pb-0000000926855981"/>
+                  <measure xml:id="measure-0000001989184115" n="0">
+                     <staff xml:id="staff-0000001983474720" n="1">
+                        <layer xml:id="layer-0000001546633606" n="1">
+                           <note class="note-0000000295971050" xml:id="note-0000000295971050" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="up" accid.ges="f">
+                              <verse xml:id="verse-0000001055431693" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="layer-0000000929376819" n="2">
+                           <note class="note-0000000125176416" xml:id="note-0000000125176416" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="staff-0000000438493819" n="2">
+                        <layer xml:id="layer-0000001532940662" n="1">
+                           <note class="note-0000000237339350" xml:id="note-0000000237339350" dur.ppq="256" dur="4" oct="3" pname="g" color="#000000" stem.dir="up"/>
+                        </layer>
+                        <layer xml:id="layer-0000001624409752" n="2">
+                           <note class="note-0000000939029861" xml:id="note-0000000939029861" dur.ppq="256" dur="4" oct="3" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <tempo xml:id="tempo-0000001193246810" staff="1" tstamp="1.000000" mm="110.000000" mm.unit="4"/>
+                  </measure>
+                  <measure xml:id="measure-0000002049184631" n="1">
+                     <staff xml:id="staff-0000000900720548" n="1">
+                        <layer xml:id="layer-0000000142518060" n="1">
+                           <note class="note-0000000773592250" xml:id="note-0000000773592250" dur.ppq="256" dur="4" oct="4" pname="g" color="#000000" stem.dir="up">
+                              <verse xml:id="verse-0000001515104952" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                           <note class="note-0000001771010621" xml:id="note-0000001771010621" dur.ppq="256" dur="4" oct="4" pname="b" color="#000000" stem.dir="up" accid.ges="f">
+                              <verse xml:id="verse-0000001908285987" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                           <note class="note-0000001472224460" xml:id="note-0000001472224460" dots="1" dur.ppq="384" dur="4" oct="5" pname="e" color="#000000" stem.dir="up" accid.ges="f">
+                              <verse xml:id="verse-0000001431437707" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                           <note class="note-0000001725236809" xml:id="note-0000001725236809" dur.ppq="128" dur="8" oct="4" pname="g" color="#000000" stem.dir="up">
+                              <verse xml:id="verse-0000001531063492" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="layer-0000000284465284" n="2">
+                           <note class="note-0000000800550129" xml:id="note-0000000800550129" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000000932220832" xml:id="note-0000000932220832" dur.ppq="256" dur="4" oct="4" pname="f" color="#000000" stem.dir="down"/>
+                           <note class="note-0000001829436646" xml:id="note-0000001829436646" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000001864640516" xml:id="note-0000001864640516" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="staff-0000000315602943" n="2">
+                        <layer xml:id="layer-0000000573049360" n="1">
+                           <note class="note-0000000694049914" xml:id="note-0000000694049914" dur.ppq="256" dur="4" oct="3" pname="b" color="#000000" stem.dir="up" accid.ges="f"/>
+                           <note class="note-0000000297109813" xml:id="note-0000000297109813" dur.ppq="256" dur="4" oct="3" pname="b" color="#000000" stem.dir="up" accid.ges="f"/>
+                           <note class="note-0000000338243140" xml:id="note-0000000338243140" dur.ppq="256" dur="4" oct="3" pname="g" color="#000000" stem.dir="up"/>
+                           <note class="note-0000000112167263" xml:id="note-0000000112167263" dur.ppq="256" dur="4" oct="3" pname="g" color="#000000" stem.dir="up"/>
+                        </layer>
+                        <layer xml:id="layer-0000001936412905" n="2">
+                           <note class="note-0000001745739976" xml:id="note-0000001745739976" dur.ppq="256" dur="4" oct="3" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000000828351914" xml:id="note-0000000828351914" dur.ppq="256" dur="4" oct="3" pname="d" color="#000000" stem.dir="down"/>
+                           <note class="note-0000000693576350" xml:id="note-0000000693576350" dur.ppq="256" dur="4" oct="3" pname="c" color="#000000" stem.dir="down"/>
+                           <note class="note-0000001039989554" xml:id="note-0000001039989554" dur.ppq="256" dur="4" oct="2" pname="b" color="#000000" stem.dir="down" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="measure-0000000080979896" n="2">
+                     <staff xml:id="staff-0000001359281658" n="1">
+                        <layer xml:id="layer-0000001300291707" n="1">
+                           <beam xml:id="beam-0000001134285785">
+                              <note class="note-0000001458159041" xml:id="note-0000001458159041" dur.ppq="128" dur="8" oct="4" pname="f" color="#000000" stem.dir="up">
+                                 <verse xml:id="verse-0000001731768880" n="1">
+                                    <syl/>
+                                 </verse>
+                              </note>
+                              <note class="note-0000001499379609" xml:id="note-0000001499379609" dur.ppq="128" dur="8" oct="5" pname="c" color="#000000" stem.dir="up"/>
+                           </beam>
+                           <beam xml:id="beam-0000001740087632">
+                              <note class="note-0000000455448496" xml:id="note-0000000455448496" dur.ppq="128" dur="8" oct="4" pname="b" color="#000000" stem.dir="up" accid.ges="f">
+                                 <verse xml:id="verse-0000000646517179" n="1">
+                                    <syl/>
+                                 </verse>
+                              </note>
+                              <note class="note-0000000664679885" xml:id="note-0000000664679885" dur.ppq="128" dur="8" oct="4" pname="a" color="#000000" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                           <note class="note-0000001875380655" xml:id="note-0000001875380655" dur.ppq="256" dur="4" oct="4" pname="g" color="#000000" stem.dir="up">
+                              <verse xml:id="verse-0000000256165495" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                           <note class="note-0000000672383667" xml:id="note-0000000672383667" dur.ppq="256" dur="4" oct="4" pname="b" color="#000000" stem.dir="up" accid.ges="f">
+                              <verse xml:id="verse-0000000680168589" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="layer-0000000539811667" n="2">
+                           <note class="note-0000000259815974" xml:id="note-0000000259815974" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000001695412037" xml:id="note-0000001695412037" dur.ppq="256" dur="4" oct="4" pname="d" color="#000000" stem.dir="down"/>
+                           <note class="note-0000000348671322" xml:id="note-0000000348671322" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000001177399315" xml:id="note-0000001177399315" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="staff-0000000455507190" n="2">
+                        <layer xml:id="layer-0000000440998713" n="1">
+                           <note class="note-0000001347991074" xml:id="note-0000001347991074" dur.ppq="256" dur="4" oct="3" pname="a" color="#000000" stem.dir="up" accid.ges="f"/>
+                           <note class="note-0000000226646977" xml:id="note-0000000226646977" dur.ppq="256" dur="4" oct="3" pname="f" color="#000000" stem.dir="up"/>
+                           <note class="note-0000000757803209" xml:id="note-0000000757803209" dur.ppq="256" dur="4" oct="3" pname="g" color="#000000" stem.dir="up"/>
+                           <note class="note-0000000676254441" xml:id="note-0000000676254441" dur.ppq="256" dur="4" oct="3" pname="g" color="#000000" stem.dir="up"/>
+                        </layer>
+                        <layer xml:id="layer-0000001425498103" n="2">
+                           <note class="note-0000000052579719" xml:id="note-0000000052579719" dur.ppq="256" dur="4" oct="2" pname="a" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000001737268538" xml:id="note-0000001737268538" dur.ppq="256" dur="4" oct="2" pname="b" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000000039220839" xml:id="note-0000000039220839" dur.ppq="256" dur="4" oct="3" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <beam xml:id="beam-0000000751725538">
+                              <note class="note-0000001140810266" xml:id="note-0000001140810266" dur.ppq="128" dur="8" oct="3" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                              <note class="note-0000001128482201" xml:id="note-0000001128482201" dur.ppq="128" dur="8" oct="3" pname="d" color="#000000" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="measure-0000001114707345" n="3">
+                     <staff xml:id="staff-0000002073893106" n="1">
+                        <layer xml:id="layer-0000001857051091" n="1">
+                           <note class="note-0000001194250898" xml:id="note-0000001194250898" dur.ppq="256" dur="4" oct="5" pname="e" color="#000000" stem.dir="up" accid.ges="f">
+                              <verse xml:id="verse-0000001752373631" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                           <note class="note-0000000181645486" xml:id="note-0000000181645486" dur.ppq="256" dur="4" oct="5" pname="d" color="#000000" stem.dir="up">
+                              <verse xml:id="verse-0000000724931952" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                           <beam xml:id="beam-0000002129551142">
+                              <note class="note-0000002043210076" xml:id="note-0000002043210076" dur.ppq="128" dur="8" oct="5" pname="c" color="#000000" stem.dir="up">
+                                 <verse xml:id="verse-0000001874775025" n="1">
+                                    <syl/>
+                                 </verse>
+                              </note>
+                              <note class="note-0000000920312617" xml:id="note-0000000920312617" dur.ppq="128" dur="8" oct="4" pname="b" color="#000000" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                           <note class="note-0000001058816461" xml:id="note-0000001058816461" dur.ppq="256" dur="4" oct="4" pname="a" color="#000000" stem.dir="up">
+                              <accid xml:id="accid-0000000732135665" accid="n"/>
+                              <verse xml:id="verse-0000001156369174" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="layer-0000001645486839" n="2">
+                           <note class="note-0000000537312788" xml:id="note-0000000537312788" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000000193957315" xml:id="note-0000000193957315" dur.ppq="256" dur="4" oct="4" pname="f" color="#000000" stem.dir="down"/>
+                           <note class="note-0000000595229461" xml:id="note-0000000595229461" dur.ppq="256" dur="4" oct="4" pname="g" color="#000000" stem.dir="down"/>
+                           <note class="note-0000000073513827" xml:id="note-0000000073513827" dur.ppq="256" dur="4" oct="4" pname="f" color="#000000" stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="staff-0000000970195006" n="2">
+                        <layer xml:id="layer-0000001361941555" n="1">
+                           <beam xml:id="beam-0000000550211616">
+                              <note class="note-0000001493202632" xml:id="note-0000001493202632" dur.ppq="128" dur="8" oct="3" pname="g" color="#000000" stem.dir="up"/>
+                              <note class="note-0000000787520423" xml:id="note-0000000787520423" dur.ppq="128" dur="8" oct="3" pname="a" color="#000000" stem.dir="up">
+                                 <accid xml:id="accid-0000001200621410" accid="n"/>
+                              </note>
+                           </beam>
+                           <note class="note-0000001091147969" xml:id="note-0000001091147969" dur.ppq="256" dur="4" oct="3" pname="b" color="#000000" stem.dir="up" accid.ges="f"/>
+                           <note class="note-0000000711783190" xml:id="note-0000000711783190" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="up" accid.ges="f"/>
+                           <note class="note-0000000354758139" xml:id="note-0000000354758139" dur.ppq="256" dur="4" oct="4" pname="c" color="#000000" stem.dir="up"/>
+                        </layer>
+                        <layer xml:id="layer-0000001335380205" n="2">
+                           <note class="note-0000001399716950" xml:id="note-0000001399716950" dur.ppq="256" dur="4" oct="3" pname="c" color="#000000" stem.dir="down"/>
+                           <note class="note-0000000469782786" xml:id="note-0000000469782786" dur.ppq="256" dur="4" oct="3" pname="d" color="#000000" stem.dir="down"/>
+                           <note class="note-0000000615863943" xml:id="note-0000000615863943" dur.ppq="256" dur="4" oct="3" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000000289994918" xml:id="note-0000000289994918" dur.ppq="256" dur="4" oct="3" pname="f" color="#000000" stem.dir="down"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="measure-0000000739555732" n="4">
+                     <staff xml:id="staff-0000001693141917" n="1">
+                        <layer xml:id="layer-0000000678669950" n="1">
+                           <note class="note-0000002084467433" xml:id="note-0000002084467433" dots="1" dur.ppq="768" dur="2" oct="4" pname="b" color="#000000" stem.dir="up" accid.ges="f">
+                              <verse xml:id="verse-0000001488850244" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                           <note class="note-0000001692723640" xml:id="note-0000001692723640" dur.ppq="256" dur="4" oct="4" pname="b" color="#000000" stem.dir="up" accid.ges="f">
+                              <verse xml:id="verse-0000000390166769" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="layer-0000000806809177" n="2">
+                           <note class="note-0000001355447733" xml:id="note-0000001355447733" dots="1" dur.ppq="768" dur="2" oct="4" pname="f" color="#000000" stem.dir="down"/>
+                           <note class="note-0000000383452791" xml:id="note-0000000383452791" dur.ppq="256" dur="4" oct="4" pname="g" color="#000000" stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="staff-0000001446028416" n="2">
+                        <layer xml:id="layer-0000000078786444" n="1">
+                           <note class="note-0000002103891721" xml:id="note-0000002103891721" dots="1" dur.ppq="768" dur="2" oct="4" pname="d" color="#000000" stem.dir="up"/>
+                           <note class="note-0000000481585106" xml:id="note-0000000481585106" dur.ppq="256" dur="4" oct="4" pname="d" color="#000000" stem.dir="up"/>
+                        </layer>
+                        <layer xml:id="layer-0000002141935356" n="2">
+                           <note class="note-0000000859514123" xml:id="note-0000000859514123" dots="1" dur.ppq="768" dur="2" oct="2" pname="b" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000001451142327" xml:id="note-0000001451142327" dur.ppq="256" dur="4" oct="3" pname="g" color="#000000" stem.dir="down"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb xml:id="sb-0000002122843662"/>
+                  <measure xml:id="measure-0000001939283143" n="5">
+                     <staff xml:id="staff-0000001693414262" n="1" visible="true">
+                        <layer xml:id="layer-0000000516529902" n="1">
+                           <note class="note-0000001234014013" xml:id="note-0000001234014013" dur.ppq="256" dur="4" oct="4" pname="a" color="#000000" stem.dir="up" accid.ges="f">
+                              <verse xml:id="verse-0000000547610834" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                           <note class="note-0000000396636426" xml:id="note-0000000396636426" dur.ppq="256" dur="4" oct="4" pname="g" color="#000000" stem.dir="up">
+                              <verse xml:id="verse-0000001637312484" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                           <note class="note-0000001530195129" xml:id="note-0000001530195129" dots="1" dur.ppq="384" dur="4" oct="5" pname="c" color="#000000" stem.dir="up">
+                              <verse xml:id="verse-0000000575386560" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                           <note class="note-0000000710984868" xml:id="note-0000000710984868" dur.ppq="128" dur="8" oct="4" pname="a" color="#000000" stem.dir="up" accid.ges="f">
+                              <verse xml:id="verse-0000001860927577" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="layer-0000000045211114" n="2">
+                           <note class="note-0000000032755498" xml:id="note-0000000032755498" dur.ppq="256" dur="4" oct="4" pname="f" color="#000000" stem.dir="down"/>
+                           <note class="note-0000000712141045" xml:id="note-0000000712141045" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="down">
+                              <accid xml:id="accid-0000000450495486" accid="n"/>
+                           </note>
+                           <note class="note-0000001975346711" xml:id="note-0000001975346711" dots="1" dur.ppq="384" dur="4" oct="4" pname="f" color="#000000" stem.dir="down"/>
+                           <note class="note-0000001421367537" xml:id="note-0000001421367537" dur.ppq="128" dur="8" oct="4" pname="f" color="#000000" stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="staff-0000001232035007" n="2" visible="true">
+                        <layer xml:id="layer-0000001992517189" n="1">
+                           <note class="note-0000001226060846" xml:id="note-0000001226060846" dur.ppq="256" dur="4" oct="4" pname="c" color="#000000" stem.dir="up"/>
+                           <note class="note-0000001186818980" xml:id="note-0000001186818980" dur.ppq="256" dur="4" oct="4" pname="c" color="#000000" stem.dir="up">
+                              <accid xml:id="accid-0000001400257476" accid="n"/>
+                           </note>
+                           <note class="note-0000001068421213" xml:id="note-0000001068421213" dots="1" dur.ppq="384" dur="4" oct="4" pname="c" color="#000000" stem.dir="up"/>
+                           <note class="note-0000000110641719" xml:id="note-0000000110641719" dur.ppq="128" dur="8" oct="4" pname="c" color="#000000" stem.dir="up"/>
+                        </layer>
+                        <layer xml:id="layer-0000000423029364" n="2">
+                           <note class="note-0000002107467476" xml:id="note-0000002107467476" dur.ppq="256" dur="4" oct="4" pname="c" color="#000000" stem.dir="down"/>
+                           <note class="note-0000000896078635" xml:id="note-0000000896078635" dur.ppq="256" dur="4" oct="3" pname="b" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000001156793011" xml:id="note-0000001156793011" dur.ppq="256" dur="4" oct="3" pname="a" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <beam xml:id="beam-0000000280588238">
+                              <note class="note-0000000247016417" xml:id="note-0000000247016417" dur.ppq="128" dur="8" oct="3" pname="g" color="#000000" stem.dir="down"/>
+                              <note class="note-0000001529783810" xml:id="note-0000001529783810" dur.ppq="128" dur="8" oct="3" pname="f" color="#000000" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="measure-0000000470640871" n="6">
+                     <staff xml:id="staff-0000001988267597" n="1">
+                        <layer xml:id="layer-0000000981952628" n="1">
+                           <note class="note-0000001610427108" xml:id="note-0000001610427108" dur.ppq="256" dur="4" oct="4" pname="g" color="#000000" stem.dir="up">
+                              <verse xml:id="verse-0000000457288308" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                           <note class="note-0000000237139196" xml:id="note-0000000237139196" dur.ppq="256" dur="4" oct="4" pname="f" color="#000000" stem.dir="up">
+                              <verse xml:id="verse-0000001731740450" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                           <note class="note-0000001560908841" xml:id="note-0000001560908841" dur.ppq="256" dur="4" oct="4" pname="b" color="#000000" stem.dir="up" accid.ges="f">
+                              <verse xml:id="verse-0000000462374069" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                           <note class="note-0000001545612745" xml:id="note-0000001545612745" dur.ppq="256" dur="4" oct="4" pname="b" color="#000000" stem.dir="up" accid.ges="f">
+                              <verse xml:id="verse-0000000677619517" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="layer-0000001458062359" n="2">
+                           <note class="note-0000001558459601" xml:id="note-0000001558459601" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="down">
+                              <accid xml:id="accid-0000001786050630" accid="f" accid.ges="f"/>
+                           </note>
+                           <note class="note-0000000631853107" xml:id="note-0000000631853107" dur.ppq="256" dur="4" oct="4" pname="d" color="#000000" stem.dir="down"/>
+                           <note class="note-0000000129357624" xml:id="note-0000000129357624" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000000721060506" xml:id="note-0000000721060506" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="staff-0000002062539467" n="2">
+                        <layer xml:id="layer-0000001976935860" n="1">
+                           <note class="note-0000000295519174" xml:id="note-0000000295519174" dur.ppq="256" dur="4" oct="3" pname="b" color="#000000" stem.dir="up" accid.ges="f"/>
+                           <note class="note-0000001404612538" xml:id="note-0000001404612538" dur.ppq="256" dur="4" oct="3" pname="b" color="#000000" stem.dir="up" accid.ges="f"/>
+                           <note class="note-0000001867471987" xml:id="note-0000001867471987" dur.ppq="256" dur="4" oct="3" pname="b" color="#000000" stem.dir="up" accid.ges="f"/>
+                           <note class="note-0000000768367845" xml:id="note-0000000768367845" dur.ppq="256" dur="4" oct="3" pname="g" color="#000000" stem.dir="up"/>
+                        </layer>
+                        <layer xml:id="layer-0000001311498151" n="2">
+                           <note class="note-0000000487082636" xml:id="note-0000000487082636" dur.ppq="256" dur="4" oct="3" pname="b" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000000236908683" xml:id="note-0000000236908683" dur.ppq="256" dur="4" oct="3" pname="a" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000000851385745" xml:id="note-0000000851385745" dur.ppq="256" dur="4" oct="3" pname="g" color="#000000" stem.dir="down"/>
+                           <note class="note-0000000965414936" xml:id="note-0000000965414936" dur.ppq="256" dur="4" oct="3" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="measure-0000002112938222" n="7">
+                     <staff xml:id="staff-0000001849338314" n="1">
+                        <layer xml:id="layer-0000000515296598" n="1">
+                           <note class="note-0000001431733114" xml:id="note-0000001431733114" dur.ppq="256" dur="4" oct="5" pname="e" color="#000000" stem.dir="up" accid.ges="f">
+                              <verse xml:id="verse-0000000121663223" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                           <beam xml:id="beam-0000001309613862">
+                              <note class="note-0000001645194026" xml:id="note-0000001645194026" dur.ppq="128" dur="8" oct="4" pname="e" color="#000000" stem.dir="up" accid.ges="f">
+                                 <verse xml:id="verse-0000001796024919" n="1">
+                                    <syl/>
+                                 </verse>
+                              </note>
+                              <note class="note-0000000320227679" xml:id="note-0000000320227679" dur.ppq="128" dur="8" oct="4" pname="f" color="#000000" stem.dir="up"/>
+                           </beam>
+                           <note class="note-0000001618509153" xml:id="note-0000001618509153" dur.ppq="256" dur="4" oct="4" pname="g" color="#000000" stem.dir="up">
+                              <verse xml:id="verse-0000001963311841" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                           <note class="note-0000001547480820" xml:id="note-0000001547480820" dur.ppq="256" dur="4" oct="4" pname="f" color="#000000" stem.dir="up">
+                              <verse xml:id="verse-0000001504422803" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="layer-0000001556004893" n="2">
+                           <note class="note-0000001605796642" xml:id="note-0000001605796642" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000001303778689" xml:id="note-0000001303778689" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000001174198990" xml:id="note-0000001174198990" dur.ppq="256" dur="4" oct="4" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000000388667734" xml:id="note-0000000388667734" dur.ppq="256" dur="4" oct="4" pname="d" color="#000000" stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="staff-0000000391189806" n="2">
+                        <layer xml:id="layer-0000001667225993" n="1">
+                           <note class="note-0000001098228542" xml:id="note-0000001098228542" dur.ppq="256" dur="4" oct="3" pname="g" color="#000000" stem.dir="up"/>
+                           <note class="note-0000000271189283" xml:id="note-0000000271189283" dur.ppq="256" dur="4" oct="4" pname="c" color="#000000" stem.dir="up"/>
+                           <note class="note-0000001398748733" xml:id="note-0000001398748733" dots="1" dur.ppq="384" dur="4" oct="3" pname="b" color="#000000" stem.dir="up" accid.ges="f"/>
+                           <note class="note-0000000823454400" xml:id="note-0000000823454400" dur.ppq="128" dur="8" oct="3" pname="a" color="#000000" stem.dir="up" accid.ges="f"/>
+                        </layer>
+                        <layer xml:id="layer-0000001072167884" n="2">
+                           <note class="note-0000001773266909" xml:id="note-0000001773266909" dur.ppq="256" dur="4" oct="3" pname="c" color="#000000" stem.dir="down"/>
+                           <note class="note-0000000516685533" xml:id="note-0000000516685533" dur.ppq="256" dur="4" oct="2" pname="a" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000001305518800" xml:id="note-0000001305518800" dur.ppq="256" dur="4" oct="2" pname="b" color="#000000" stem.dir="down" accid.ges="f"/>
+                           <note class="note-0000001353269083" xml:id="note-0000001353269083" dur.ppq="256" dur="4" oct="2" pname="b" color="#000000" stem.dir="down" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="measure-0000000290023536" right="end" n="8">
+                     <staff xml:id="staff-0000000776453561" n="1">
+                        <layer xml:id="layer-0000000069188948" n="1">
+                           <note class="note-0000001032163950" xml:id="note-0000001032163950" dots="1" dur.ppq="768" dur="2" oct="4" pname="e" color="#000000" stem.dir="up" accid.ges="f">
+                              <verse xml:id="verse-0000000921444189" n="1">
+                                 <syl/>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="layer-0000001290866448" n="2">
+                           <note class="note-0000001565599609" xml:id="note-0000001565599609" dots="1" dur.ppq="768" dur="2" oct="4" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="staff-0000001069923148" n="2">
+                        <layer xml:id="layer-0000000664554526" n="1">
+                           <note class="note-0000000002178811" xml:id="note-0000000002178811" dots="1" dur.ppq="768" dur="2" oct="3" pname="g" color="#000000" stem.dir="up"/>
+                        </layer>
+                        <layer xml:id="layer-0000001064691305" n="2">
+                           <note class="note-0000000618859779" xml:id="note-0000000618859779" dots="1" dur.ppq="768" dur="2" oct="3" pname="e" color="#000000" stem.dir="down" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music></mei>
